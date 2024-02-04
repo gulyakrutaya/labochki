@@ -13,7 +13,7 @@ def filter_prime(l):
                 div+=1
             else:
                 break
-        if num==div and num>2:
+        if num==div and num>1:
             primeList.append(num)
 
     print(primeList)
