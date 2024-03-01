@@ -1,0 +1,10 @@
+def bbb(f):
+    with open(f, "r") as file:
+        bll=file.read()
+
+    newf="newf.txt"
+
+    with open(newf, "w") as file:
+        file.write(bll)
+
+bbb("C:\\Users\\gulbe\\OneDrive\\Рабочий стол\\PP2\\lab6\\dir\\dir4text.txt")
